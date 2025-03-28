@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from "react-router-dom";
-
+// npm install vite --save-dev ;; npm install react-router-dom
 // Sukuriame autentifikacijos kontekstą
 const AuthContext = createContext();
 
